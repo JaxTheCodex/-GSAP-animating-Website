@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <img src="images/hotels-logo-41815.png">
+        <h4>ABOUT</h4>
+        <h4>SERVICES</h4>
+        <h4>Hotels</h4>
+        <h4>Rentals</h4>
+        <h4>Attractions</h4>
+        <button>Book Now</button>
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+    <video
+        src="videos/ROYALTY FREE Resort Promo Music - Resort Promo Reel Background Music Royalty Free by MUSIC4VIDEO.mp4"
+        autoplay loop muted></video>
+    <div id="main">
+        <div id="page1">
+            <h1>ENJOY YOUR WEEKENDS</h1>
+            <h3>WELCOME TO ROYAL CLASSIC HOTEL!</h3>
+            <p>Welcome to our exquisite hotel, where luxury meets comfort. Nestled in the heart of a vibrant city, our
+                hotel offers an unrivaled experience for every discerning traveler.</p>
+        </div>
+        <div id="page2">
+            <div id="scroller">
+                <marquee behavior="scroll" direction="to left" scrollamount="20">
+                    <h4>LUXURY ROOMS<img src="images/blog-s1.jpg"> PLAYGROUND <img src="images/playground.jpg" alt="">
+                        RESTURANTS <img src="images/resturant.jpg" alt=""> PARKS <img src="images/parks.jpg" alt=""> SPA
+                        <img src="images/spa.jpg" alt="">
+                    </h4>
+                </marquee>
+            </div>
+        </div>
+        <div id="about-us">
+            <img src="images/room-1.jpg" alt="image">
+            <div id="about-us-in">
+                <h3><span>ABOUT</span> US</h3>
+                <p>At our hotel booking website, we understand that finding the perfect place to stay plays a
+                    crucial role in creating memorable experiences. Therefore, we have partnered with top-rated
+                    hotels and resorts around the world to offer you an extensive selection of accommodations that
+                    cater to different preferences and budgets.</p>
+            </div>
+            <img src="images/room-2.jpg" alt="image">
+        </div>
+        <div id="services">
+            <h3>OUR<span> SERVICES</span></h3>
+        </div>
+        <div id="cards-container">
+            <div class="card" id="card1">
+                <div class="overlay">
+                    <h3>LUXURY ROOMS</h3>
+                    <p>Indulge in the epitome of elegance and comfort with our luxury rooms. </p>
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <div class="overlay">
+                    <h3>DELICIOUS FOOD</h3>
+                    <p>
+                        Prepare your taste buds for a culinary journey like no other as we present our exquisite and
+                        delicious food offerings.</p>
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <div class="overlay">
+                    <h3>SWIMMING POOLS</h3>
+                    <p>Indulge in the epitome of elegance and comfort with our luxury rooms. </p>
+                    <button>Know More</button>
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div id="inner-banner">
+                <h3 id="he1">ROYAL</h3><h3 id="he2">CLASSIC</h3> <h3 id="he3">HOTEL</h3>
+                <!-- <div id="dropdown">
+                <select>
+                <option class="active">MAY-FAIR HOTEL</option>
+                <option>THE PRESIDENCY</option>
+                <option>TRIDENT BHUBANESHWAR</option>
+                <option>HOTEL PAL HEIGHTS</option>
+                <option>FABHOTEL TRIPLE TREE</option>
+                <option>HOTEL KALINGA ASHOK</option>
+                <option>HOTEL MARIGOLD</option>
+                <option>NILAY RESIDENCY</option>
+                <option>GINGER BHUBANESHWAR</option>
+                <option>HOTEL HINDUSTAN NTERNATIONAL</option>
+                </select>
+            </div>-->
+            </div>
+        </div>
+        <div id="page3">
+            <p>Our user-friendly platform allows you to effortlessly search, compare, and book hotels based on your
+                desired destination, travel dates, and specific requirements. We provide detailed information about each
+                property, including room types, amenities, services, and guest reviews, to help you make informed
+                decisions.</p>
+            <img id="quoteImg1" src="images/quote-img.png" alt="Image">
+            <img id="quoteImg2" src="images/quote-img.png" alt="Image">
+        </div>
+    </div>
+<div id="hotels">
+    <h1>ROYAL<br> CLASSIC <br> HOTEL</h1>
+    <div id="hotels1">
+        <div class="hotels-inner">
+            <h2>TOP COMFORT</h2>
+            <p>WE ARE THE BEST SERVICE PROVIDERS</p>
+        </div>
+    </div>
+    <div id="hotels2">
+        <div class="hotels-inner">
+            <h2>HIGH CLASS</h2>
+            <p>WE ARE THE BEST SERVICE PROVIDERS</p>
+        </div>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
